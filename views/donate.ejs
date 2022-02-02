@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="test.webm" type="video/mp4">
+      </video>
+    <button id="amount" style="visibility: hidden;" value="<%=amount%>"><%=amount%></button>
+     <!-- Include the PayPal JavaScript SDK; replace "test" with your own sandbox Business account app client ID -->
+     <script src="https://www.paypal.com/sdk/js?client-id=AQXShSdbaOr1wzQbRpWDoxcnU29faLh_uVFqX94aE2Q_yxX-p-dhsvIoLNcBL6mWlhfyiOCj21V6V3wN&currency=USD"></script>
+
+     <!-- Set up a container element for the button -->
+     <div id="paypal-button-container" class="center">
+        <h1>Donate</h1>
+        <br>
+      </div>
+</body>
+
+<script src="script.js"></script>
+</html>
