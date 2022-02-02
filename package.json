@@ -1,0 +1,20 @@
+{
+  "name": "paytm_payment_integration",
+  "version": "1.0.0",
+  "description": "Simple payment integration in a website",
+  "main": "app",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemailer": "^6.6.5",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
